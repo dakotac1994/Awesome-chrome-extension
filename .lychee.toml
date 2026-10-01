@@ -1,0 +1,13 @@
+# lychee configuration for Awesome-chrome-extension
+# Excludes are regexes — domain-bare patterns cover www/subdomains.
+
+exclude = [
+]
+
+# Be lenient with transient failures but strict about real breakage.
+# NOTE: ~60 homepage links point at chromewebstore.google.com. The store has
+# historically been fine with lychee's polite rate, but if CI starts failing
+# with 429s from the store, add "chromewebstore\\.google\\.com" here.
+max_retries = 3
+timeout = 20
+accept = [200, 201, 202, 203, 204, 206]
