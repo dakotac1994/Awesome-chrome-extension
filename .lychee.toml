@@ -2,12 +2,13 @@
 # Excludes are regexes — domain-bare patterns cover www/subdomains.
 
 exclude = [
+  # chromewebstore.google.com serves Google's "sorry" bot-check page to CI
+  # runners (302 to google.com/sorry/index). All CWS listings were verified
+  # live during research (2026-09-30); excluded to keep CI deterministic.
+  "chromewebstore\\.google\\.com",
 ]
 
 # Be lenient with transient failures but strict about real breakage.
-# NOTE: ~60 homepage links point at chromewebstore.google.com. The store has
-# historically been fine with lychee's polite rate, but if CI starts failing
-# with 429s from the store, add "chromewebstore\\.google\\.com" here.
 max_retries = 3
 timeout = 20
 accept = [200, 201, 202, 203, 204, 206]
