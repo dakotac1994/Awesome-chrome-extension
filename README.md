@@ -1,8 +1,8 @@
 # Awesome Chrome Extensions
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Entries](https://img.shields.io/badge/entries-80-blue)](data/chrome-extensions.json)
-[![Verified](https://img.shields.io/badge/verified-80%2F80-brightgreen)](docs/status-changes.md)
+[![Entries](https://img.shields.io/badge/entries-81-blue)](data/chrome-extensions.json)
+[![Verified](https://img.shields.io/badge/verified-81%2F81-brightgreen)](docs/status-changes.md)
 [![CI](https://github.com/dakotac1994/Awesome-chrome-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/dakotac1994/Awesome-chrome-extension/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -104,13 +104,14 @@ A curated list of Chrome/Chromium browser extensions for the **Manifest V3 era**
 
 *Tame tab overload: session managers, tab organizers, and automatic tab discarders.*
 
-(7 entries)
+(8 entries)
 
 - [OneTab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) — Converts all open tabs into a single list to cut clutter and memory use; restore tabs individually or all at once. (Listed only in this category per dedup rule.) *(proprietary)*
 - [Session Buddy](https://chromewebstore.google.com/detail/session-buddy-tab-bookmar/edacconmaakjimmfgnblocblbcdcpbko) — Privacy-first session manager: save, organize, and restore sessions, tabs, and bookmarks. v4.0.0 is Manifest V3 compliant. *(proprietary)*
 - [Tab Manager Plus for Chrome](https://chromewebstore.google.com/detail/tab-manager-plus-for-chro/cnkdjjdmfiffagllbiiilooaoofcoeff) — Finds open tabs across windows, spots duplicates, and caps tabs per window (rated 4.7 on the CWS). *(proprietary)*
 - [Tab Session Manager](https://chromewebstore.google.com/detail/tab-session-manager/iaiomicjabeggjcfkbimgmglanimpnae) — Auto-saves browser sessions with tagging, import/export, and cloud sync; ships Chrome MV3 and Firefox builds.
 - [Tab Wrangler](https://chromewebstore.google.com/detail/tab-wrangler/egnjhciaieeiiohknchakcodbpgjnchh) — Auto-closes tabs idle past a configurable timer into the Tab Corral for later restore; renders Chrome tab groups since v8.2.
+- [Tabner](https://chromewebstore.google.com/detail/tabner-your-smart-tab-man/pclkcnonbckoajfpncncdghbhgfccmdi) — New-tab board manager that saves all tabs of a window in one click, saves windows as sessions (restoring Chrome tab groups) and sorts saved tabs into coloured groups with tags, notes and Ctrl+K search. Works locally without an account; optional sync and board sharing need an email-code account and store data on EU servers. *(proprietary)*
 - [Toby](http://chromewebstore.google.com/detail/toby-tab-management-tool/hddnkoipeenegfoeaoibdmnaalmgkpip) — Visual workspace that saves tab sessions into drag-and-drop collections on every new tab, with cloud sync; free tier holds 60 tabs. *(proprietary)*
 - [Workona](https://www.workona.com) — Workspaces that persist tabs, docs, and tasks per project, with team sharing. Free tier reduced to 5 workspaces in 2026; Pro is $8/mo. *(proprietary)*
 

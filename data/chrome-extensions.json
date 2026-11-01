@@ -612,6 +612,18 @@
     "unverified_reason": null
   },
   {
+    "name": "Tabner",
+    "description": "New-tab board manager that saves all tabs of a window in one click, saves windows as sessions (restoring Chrome tab groups) and sorts saved tabs into coloured groups with tags, notes and Ctrl+K search. Works locally without an account; optional sync and board sharing need an email-code account and store data on EU servers.",
+    "license": "proprietary",
+    "category": "tab-management",
+    "repo": null,
+    "homepage": "https://chromewebstore.google.com/detail/tabner-your-smart-tab-man/pclkcnonbckoajfpncncdghbhgfccmdi",
+    "official_site": "https://tabner.es",
+    "stars": null,
+    "verified": true,
+    "unverified_reason": null
+  },
+  {
     "name": "Toby",
     "description": "Visual workspace that saves tab sessions into drag-and-drop collections on every new tab, with cloud sync; free tier holds 60 tabs.",
     "license": "proprietary",
